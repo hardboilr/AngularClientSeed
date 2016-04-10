@@ -1,0 +1,13 @@
+<h1>All Names</h1>
+<table class="table" ng-init="fetchNames();">
+    <thead>
+    <tr style="background-color: gainsboro">
+        <th>Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="name in names">
+        <td>{{name.msg}}</td>
+    </tr>
+    </tbody>
+</table>

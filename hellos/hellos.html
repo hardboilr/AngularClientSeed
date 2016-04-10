@@ -1,0 +1,13 @@
+<h1>All Hello's</h1>
+<table class = "table" ng-init="fetchHellos();">
+    <thead>
+    <tr style="background-color: gainsboro">
+        <th>Hello Quote</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="hello in hellos">
+        <td>{{hello.msg}}</td>
+    </tr>
+    </tbody>
+</table>
